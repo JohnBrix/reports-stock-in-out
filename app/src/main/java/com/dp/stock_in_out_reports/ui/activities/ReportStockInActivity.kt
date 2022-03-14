@@ -46,6 +46,7 @@ class ReportStockInActivity : AppCompatActivity() {
         binding.reportStockInViewModel = vModel
         binding.lifecycleOwner = this@ReportStockInActivity
         supportActionBar?.hide()
+        binding.reportStockInProgBar.visibility = View.GONE
         DateTimeStrategy()
         initUI()
 
@@ -214,7 +215,9 @@ class ReportStockInActivity : AppCompatActivity() {
             var statusCode = it.statusCode
 
             if (statusCode == 200) {
+
                 binding.apply {
+                    binding.reportStockInProgBar.visibility = View.GONE
                     reportStockInRecyclerView.layoutManager =
                         GridLayoutManager(
                             this@ReportStockInActivity,
@@ -232,6 +235,7 @@ class ReportStockInActivity : AppCompatActivity() {
                     }
                 }
             } else {
+                binding.reportStockInProgBar.visibility = View.GONE
                 Toast.makeText(
                     this,
                     "Default: ${statusCode} ${it.message}",
