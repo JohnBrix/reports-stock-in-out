@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">stock-in-out-reports</string>
+    <string name="previous">&lt;</string>
+    <string name="next">></string>
+    <string-array name="stockInDaily">
+        <item>Daily</item>
+    </string-array>
+</resources>
