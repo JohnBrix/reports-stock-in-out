@@ -35,9 +35,10 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
+                android:layout_gravity="left"
                 android:layout_margin="6dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:background="@drawable/image_view_border">
 
                 <TextView
                     android:id="@+id/itemStockOut"
@@ -50,58 +51,61 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
+                android:layout_gravity="left"
                 android:layout_margin="5dp"
                 android:layout_marginTop="3dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:background="@drawable/image_view_border">
 
                 <TextView
                     android:id="@+id/itemModelStockOut"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text="MODEL-123456"
-                    android:textColor="#e74c3c"
                     android:textStyle="bold" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
+                android:layout_gravity="left"
                 android:layout_margin="5dp"
                 android:layout_marginTop="3dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:background="@drawable/image_view_border">
 
                 <TextView
                     android:id="@+id/qty"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text="Quantity"
-                    android:textColor="#e74c3c"
                     android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
+                android:layout_gravity="left"
                 android:layout_margin="5dp"
                 android:layout_marginTop="3dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:background="@drawable/image_view_border">
 
                 <TextView
                     android:id="@+id/transNumberStockOut"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="Transaction Number: POS_123456 "/>
+                    android:text="Transaction Number: POS_123456 "
+                    android:textColor="#e74c3c"/>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
+                android:layout_gravity="left"
                 android:layout_margin="5dp"
                 android:layout_marginTop="3dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:background="@drawable/image_view_border">
 
                 <TextView
                     android:id="@+id/dateOfTrans"
@@ -113,10 +117,11 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
+                android:layout_gravity="left"
                 android:layout_margin="5dp"
                 android:layout_marginTop="3dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:background="@drawable/image_view_border">
 
                 <TextView
                     android:id="@+id/reasonStockOut"
