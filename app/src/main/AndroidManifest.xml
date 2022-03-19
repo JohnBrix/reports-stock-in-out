@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Stockinoutreports">
         <activity
-            android:name=".ui.activities.ReportStockOutActivity"
+            android:name=".ui.activities.ReportStockInActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

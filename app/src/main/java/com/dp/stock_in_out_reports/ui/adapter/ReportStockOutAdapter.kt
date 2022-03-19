@@ -19,6 +19,8 @@ class ReportStockOutAdapter( var item: List<ReportStockOut>)
         var itemModelStockOut = itemView.findViewById(R.id.itemModelStockOut) as TextView
         var transNumberStockOut = itemView.findViewById(R.id.transNumberStockOut) as TextView
         var reasonStockOut = itemView.findViewById(R.id.reasonStockOut) as TextView
+        var dateOfTrans = itemView.findViewById(R.id.dateOfTrans) as TextView
+
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ReportStockOutAdapter.ViewHolder {
@@ -35,6 +37,7 @@ class ReportStockOutAdapter( var item: List<ReportStockOut>)
         holder.itemModelStockOut.text ="Model: ${itemList.product?.brandModel.toString()}"
         holder.transNumberStockOut.text ="TransN#: ${itemList.transaction.toString()}"
         holder.reasonStockOut.text = "Reason: ${itemList.reason}"
+        holder.dateOfTrans.text = "Date Trans#: ${itemList.dateOfTransaction}"
 
     }
 
