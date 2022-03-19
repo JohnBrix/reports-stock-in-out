@@ -1,4 +1,4 @@
-package com.dp.stock_in_out_reports.domain.networkEntities
+package com.dp.stock_in_out_reports.domain.networkEntities.response.stockin
 
 
 import com.google.gson.annotations.SerializedName

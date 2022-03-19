@@ -8,8 +8,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.dp.stock_in_out_reports.R
-import com.dp.stock_in_out_reports.domain.networkEntities.HttpReportStockInResponse
-import com.dp.stock_in_out_reports.domain.networkEntities.ReportStockIn
+import com.dp.stock_in_out_reports.domain.networkEntities.response.stockin.HttpReportStockInResponse
+import com.dp.stock_in_out_reports.domain.networkEntities.response.stockin.ReportStockIn
 import com.squareup.picasso.Picasso
 
 class ReportStockInAdapter( var item: List<ReportStockIn>)
