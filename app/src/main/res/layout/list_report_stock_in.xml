@@ -79,19 +79,6 @@
                     android:text="Transaction Number: POS_123456 "/>
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:orientation="vertical">
-
-                <Button
-                    android:id="@+id/printNowIn"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="Print"/>
-            </LinearLayout>
-
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 

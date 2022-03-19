@@ -20,7 +20,6 @@ class ReportStockInAdapter( var item: List<ReportStockIn>)
         var itemStockIn = itemView.findViewById(R.id.itemStockIn) as TextView
         var itemModelStockIn = itemView.findViewById(R.id.itemModelStockIn) as TextView
         var transNumberStockIn = itemView.findViewById(R.id.transNumberStockIn) as TextView
-        var printNowIn = itemView.findViewById(R.id.printNowIn) as Button
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {

@@ -23,7 +23,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/stockInImages"
+                android:id="@+id/stockOutImages"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_gravity="center_horizontal"
@@ -79,18 +79,6 @@
                     android:text="Transaction Number: POS_123456 "/>
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:orientation="vertical">
-
-                <Button
-                    android:id="@+id/printNowOut"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="Print"/>
-            </LinearLayout>
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>

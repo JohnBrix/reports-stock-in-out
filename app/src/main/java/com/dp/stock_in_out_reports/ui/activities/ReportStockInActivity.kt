@@ -238,7 +238,7 @@ class ReportStockInActivity : AppCompatActivity() {
                 binding.reportStockInProgBar.visibility = View.GONE
                 Toast.makeText(
                     this,
-                    "Default: ${statusCode} ${it.message}",
+                    "Default: ${statusCode} ${it.message} NOT FOUND!",
                     Toast.LENGTH_SHORT
                 ).show()
             }
